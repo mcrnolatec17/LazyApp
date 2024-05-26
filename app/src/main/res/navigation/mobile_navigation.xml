@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_today">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.project17.lazyapp.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_today"
+        android:name="com.project17.lazyapp.ui.today.TodayFragment"
+        android:label="@string/title_today"
+        tools:layout="@layout/fragment_today" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.project17.lazyapp.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_weekly_schedule"
+        android:name="com.project17.lazyapp.ui.weekly_schedule.WeeklyScheduleFragment"
+        android:label="@string/title_weekly_schedule"
+        tools:layout="@layout/fragment_weekly_schedule" />
 
     <fragment
         android:id="@+id/navigation_notifications"
